@@ -1,0 +1,53 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header{
+    border-bottom: 1px solid #000;
+    padding-bottom: 20px;
+}
+
+.menubar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.menubar *{
+    display: inline;
+}
+
+.menubar li{
+    list-style: none;
+    padding: 40px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    margin: auto;
+}
+
+.shadow {
+    background: #fff;
+    border-radius: 2px;
+    display: inline-block;
+    width: auto;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.item{
+    padding-bottom: 30px;
+}
+
+.placeinfo li{
+    list-style: none;
+}
+
+.item img{
+    width: 250px;
+    height: 250px;
+}
